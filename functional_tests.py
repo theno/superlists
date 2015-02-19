@@ -1,12 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+import os.path
 import unittest
 
 
 class NewVisitorTest(unittest.TestCase):
 
     def setUp(self):
-        binary = FirefoxBinary('/usr/bin/firefox-bin')
+        binary = FirefoxBinary(os.path.expanduser('~/bin/firefox'))
         self.browser = webdriver.Firefox(firefox_binary=binary)
         self.browser.implicitly_wait(3)
 
