@@ -21,7 +21,7 @@ typo ('ansible' before 'inventory'), correct:
     ansible-playbook -i inventory.ansible  ...
 
 
-## P. Meaning of tags
+## P.166 Meaning of tags
 
 Why two tags? What is the difference between 'LIVE' and 'DEPLOYED-...'?
 
@@ -37,4 +37,4 @@ What are forms level tests?
 
 ## P. 183
 
-Extra hint of the newly inserted slash after '{{ input.id }}'
+Extra hint of the newly inserted slash after '{{ input.id }}'. It's too easy to oversee.
