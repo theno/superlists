@@ -38,3 +38,7 @@ What are forms level tests?
 ## P. 183
 
 Extra hint of the newly inserted slash after '{{ input.id }}'. It's too easy to oversee.
+
+## P. 196
+
+No linebreak on the verbatim word 'textarea'.
