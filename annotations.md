@@ -42,3 +42,8 @@ Extra hint of the newly inserted slash after '{{ input.id }}'. It's too easy to 
 ## P. 196
 
 No linebreak on the verbatim word 'textarea'.
+
+## P. 202
+
+    grep -Ir item_text lists
+catches "0002_item_text" in lists/migrations/0003_list.py
