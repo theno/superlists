@@ -47,3 +47,9 @@ No linebreak on the verbatim word 'textarea'.
 
     grep -Ir item_text lists
 catches "0002_item_text" in lists/migrations/0003_list.py
+
+## Ambiguous class where to add the test
+
+## P. 235 For the protocol
+
+Add hint to make a final commit at the end of this chapter.
