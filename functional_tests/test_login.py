@@ -22,7 +22,12 @@ class LoginTest(FunctionalTest):
         ).send_keys('edith@mockmyid.com')
 ## does not work
 #        self.browser.find_element_by_tag_name('button').click()
-        displayed_button = [b for b in self.browser.find_elements_by_tag_name('button') if b.is_displayed()][0]
+        displayed_button = [
+            b
+            for b
+            in self.browser.find_elements_by_tag_name('button')
+            if b.is_displayed()
+        ][0]
         displayed_button.click()
 
         # The Persona window closes
